@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client'
 import Greeting from "./Greeting.jsx"
 import Quote from "./AddQuote.jsx"
 import Todo from "./AddStuff.jsx"
+import AddAnimals from "./AddList.jsx"
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Greeting />
     <Quote/>
     <Todo/>
+    <AddAnimals/>
   </React.StrictMode>,
 )
 
