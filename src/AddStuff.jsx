@@ -1,9 +1,14 @@
-export default function Avatar(){
+export default function TodoList(){
     return (
-        <img
-        className="avatar"
-        src="https://i.imgur.com/7vQD0fPs.jpg"
-        alt="Gregorio Y. Zara"
-        />
-    )
+        <ul style={{
+            backgroundColor: "black",
+            color: "orange"
+        }}>
+            <li>TODO 1</li>
+            <li>TODO 2</li>
+            <li>TODO 3</li>
+        </ul>
+    );
 }
+
+// Inline style properties are written in camelCase. For example, HTML <ul style="background-color: black"> would be written as <ul style={{ backgroundColor: 'black' }}>  in your component.
